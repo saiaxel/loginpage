@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta name="" viewport content="with=device-width, initial-scale=1.0">
+    <title>LOGIN AUTHENTICATION</title>
+    <link rel="icon" href="./earth.png" type="icon/gif/png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="label">USER LOGIN</h1>
+        <form class="login_form" action="./home.html" method="post" name="form" onsubmit="return validated()">
+            <div class="font">EMAIL OR PHONE</div>
+            <input type="text" name="email">
+            <div id="email_error">please fill up the email or phone</div>
+            <div class="font">PASSWORD</div>
+            <input type="password" name="password">
+            <div id="pass_error">please fill up the password</div>
+            <button class="button">SUBMIT</button>
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+
+</html>
